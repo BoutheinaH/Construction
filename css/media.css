@@ -1,0 +1,277 @@
+/* -----Start Section Top Bar ----- */
+
+@media (max-width: 767px) {
+    #topbar .topbar-block.left ul li {
+        border-right: medium none;
+        display: inline-block;
+        line-height: 23px;
+        padding: 0;
+        text-align: center;
+        width: 100%;
+    }
+    #topbar .topbar-block.left ul li i {
+        float: none;
+    }
+    .topbar-block:last-child {
+        margin-top: 6px;
+        text-align: center;
+    }
+}
+
+/* ----- End Section Top Bar ----- */
+
+/* ----- Start Section Header ----- */
+
+@media (max-width: 767px) {
+    header {
+        overflow: hidden;
+        padding: 11px 0;
+    }
+    nav#slide-nav {
+        background-color: #fff;
+    }
+    #slide-nav .container {
+        margin: 0;
+        padding: 0 !important;
+    }
+    #slide-nav .navbar-header {
+        text-align: left;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    #slide-nav .navbar-toggle {
+        border: medium none;
+        border-radius: 0;
+        margin: 18px 5px 0;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #34404e;
+        border-radius: 0;
+        height: 3px;
+        width: 18px;
+        margin-top: 3px;
+    }
+    #slide-nav .navbar-header a {
+        display: inline-block;
+        height: auto !important;
+    }
+    #slide-nav #menu_nav {
+        background: #fff;
+        border: none;
+        box-shadow: none;
+        margin: 0;
+        min-width: 0;
+        padding-right: 0;
+        position: fixed;
+        right: -100%;
+        top: 4px;
+        width: 80%;
+        z-index: 999999;
+    }
+    #slide-nav #menu_nav .navbar-nav {
+        margin: 15px 0 0;
+        min-width: 0;
+        width: 100%;
+        padding: 15px 0;
+    }
+    header .navbar ul.nav li {
+        display: block;
+        text-align: left;
+    }
+    #slide-nav #navbar-height-col {
+        background: #fff;
+        z-index: 1;
+        border: 0;
+        border-left: 1px solid #385E01;
+    }
+    #slide-nav #navbar-height-col {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 80%;
+        right: -80%;
+        background: #eee;
+    }
+}
+
+/* -----End Section Header ------*/
+
+/*---- Start Section Banner ----*/
+
+@media (min-width:767px) and (max-width: 1070px) {
+    .banner-text {
+        top: 25%;
+        left: 10%;
+        right: 10%;
+    }
+
+    .banner-text h2 {
+        font-size: 3em;
+        font-weight: 0.4em;
+        padding: 0.1em 0.5em;
+    }
+
+    .banner-text p {
+        font-size: 1.2em;
+        font-weight: 0.5em;
+        padding: 0.2em;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-text {
+        top: 15%;
+        left: 10%;
+        right: 10%;
+    }
+
+    .banner-text h2 {
+        font-size: 1.5em;
+        font-weight: 0.4em;
+        padding: 0.1em 0.5em;
+    }
+
+    .banner-text p {
+        font-size: 0.7em;
+        font-weight: 0.3em;
+        padding: 0.2em;
+    }
+}
+
+/*---- End Section Banner ----*/
+
+/* ---- Start Section What We Offer ---- */
+
+@media (min-width:767px) and (max-width: 1024px) {
+    .srvice-icon {
+        font-size: 0.5em;
+    }
+    .glyphicon-wrench,
+    .glyphicon-user,
+    .glyphicon-calendar,
+    .glyphicon-pushpin,
+    .glyphicon-home,
+    .glyphicon-pencil {
+        font-size: 1em;
+    }
+}
+
+/* ---- End Section What We Offer ---- */
+
+/*---- Start Section Testimonials---- */
+
+@media (min-width: 992px) {
+    .container {
+        /*    max-width: 960px;*/
+    }
+    .col-lg-4 {
+        /*    -ms-flex: 0 0 33.333333%;*/
+        /*    flex: 0 0 33.333333%;*/
+        /*    max-width: 33.333333%;*/
+    }
+}
+
+/*---- End Section Testimonials---- */
+
+/*------ Start Section Footer -----*/
+
+@media only screen and (max-width: 767px) {
+    #footer {
+        padding: 50px 0 20px;
+    }
+    #footer-widgets [class^="col-md-"] .widget:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #footer-widgets .widget .widget-title {
+        font-size: 1.142em;
+        margin-bottom: 28px;
+    }
+}
+
+/*-------- // End Section Footer ------*/
+
+/*---------- Start Gallery Page -------*/
+
+@media (max-width: 1366px) {
+    .featured-section,
+    #team,
+    #gallery {
+        padding: 4em 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    h3.tittle {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 991px) {
+
+    ul.demo > li {
+        float: left;
+        list-style-type: none;
+        margin: 10px;
+        width: 30%;
+    }
+}
+
+/*---------- // End Gallery Page -------*/
+
+/*------------- Start About Us Page -----------*/
+
+@media screen and (max-width: 1276px) and (min-width: 860px) {
+    .gridcol__inline {
+        display: block;
+    }
+    .gridcol__inline .gridcol {
+        display: table;
+        padding: 0 !important;
+        width: 100% !important;
+        margin-bottom: 20px;
+        height: 325px;
+        width: 265px;
+    }
+    .gridcol__inline .grid-feature .gridcol__outer {
+        left: auto;
+        right: auto;
+        position: relative;
+    }
+    .gridcol__inline .grid-feature .gridcol__body {
+        -webkit-transform: none;
+        -moz-transform: none;
+        transform: none;
+    }
+    p.largetxt {
+        font-size: 15px;
+        line-height: 1.368em;
+    }
+
+    .gridcol__inline .gridcol[data-width="slim"] {
+        height: auto !important;
+        margin-bottom: 20px;
+    }
+
+    .gridcol__inline .gridcol[data-width="slim"] .gridcol__top {
+        padding-right: 10px;
+        display: table-cell !important;
+        right: auto !important;
+        left: auto !important;
+        width: 50% !important;
+        position: relative;
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1276px) and (min-width: 0) {
+
+    .grid-feature .gridcol__inner {
+        padding: 50px;
+    }
+}
+
+/*------------- // End About Us Page -----------*/
