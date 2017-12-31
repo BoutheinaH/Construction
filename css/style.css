@@ -152,7 +152,7 @@ color: black;
  font-size: 40px;
 }
 .navbar-nav > li > a {
-    color: black;
+    color:#4a4b4c;
     font-size: 20px;
     font-weight: bold;
 }
@@ -815,7 +815,7 @@ h3.tittle {
     font-size: 2.5em;
     font-weight: bold;
     margin-bottom: 40px;
-    color: #202020;
+    color: #4a4b4c;
     text-align: center;
     text-transform: uppercase;
 /*    font-family: 'Montserrat', sans-serif;*/
@@ -1192,9 +1192,162 @@ a:link, a:visited {
 
 
 
-
-
-
 /*------------------------------------------ //About Us Page ----------------------------------------*/
+
+
+/*------------------------------------------ Team Page ----------------------------------------*/
+.bigteam{
+    width: 100%;
+    height: 400px;
+}
+.team{
+     background: #f5f5f5;   
+}
+
+team-block {
+    border-top: 2px solid #8f8d87;
+    padding: 0 0 72px;
+}
+
+.team-block .box {
+    overflow: hidden;
+    position: relative;
+    padding: 48px 30px 53px;
+    border-bottom: 2px solid #8f8d87;
+}
+
+.team-block .alignleft .img-block {
+    float: left;
+    width: 47.3%;
+    margin: 4px 51px 0 0;
+}
+
+.team-block .alignleft .img-box {
+    float: right;
+    margin: 0 0 0 43px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.team-block .img-box img, .case-studies .img-box img {
+    border-top-left-radius: 132px;
+    border-top-right-radius: 132px;
+    border-bottom-right-radius: 132px;
+    border-bottom-left-radius: 132px;
+    position: relative;
+    vertical-align: top;
+    border-radius: 50%;
+    height: 270px;
+    width: 270px;
+}
+
+img {
+    border-style: none;
+}
+
+.team-block .alignleft .social-holder {
+    height: 264px;
+    width: 25px;
+    white-space: nowrap;
+    float: right;
+}
+
+.team-block .alignright .text-box {
+    text-align: right;
+}
+
+.team-block .alignright .img-block {
+    float: right;
+    width: 47.3%;
+    margin: 4px 0 0 51px;
+}
+
+.team-block .alignright .img-box {
+    float: left;
+    margin: 0 39px 0 0;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+team-block .alignright .social-holder {
+    float: left;
+}
+
+.team-block .alignright .social-holder, .team-block .alignleft .social-holder {
+    height: 264px;
+    width: 25px;
+    white-space: nowrap;
+    float: right;
+}
+.team-block .social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.team-block .social li:first-child {
+    margin: 0;
+}
+
+.team-block .social li {
+    margin: 17px 0 0;
+    overflow: hidden;
+}
+
+.team-block .social a {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 25px;
+}
+
+.team-block a {
+    text-decoration: underline;
+    color: #4a4b4c;
+}
+
+.team-block .social .linkedin {
+    background: url(../images/bg-social4.png) 0 -111px no-repeat;
+    height: 20px;
+}
+
+.team-block .social .google {
+    background: url(../images/bg-social4.png) 0 -73px no-repeat;
+    height: 20px;
+}
+
+.team-block .social .twitter {
+    background: url(../images/bg-social4.png) no-repeat;
+    height: 20px;
+}
+
+.team-block .text-box {
+    overflow: hidden;
+    position: relative;
+}
+
+#main .team-block h1 {
+    text-transform: uppercase;
+    margin: 0 0 28px;
+    font: 27px/28px 'EngschriftDIN1422W01-D', Arial, Helvetica, sans-serif;
+}
+
+#main .team-block p {
+    margin: 0 0 23px;
+}
+
+.team-block .email {
+    font: 20px/24px 'AdobeCaslonW01-SmBdIt', Times, serif;
+    display: inline-block;
+}
+
+#main .team-block p {
+    margin: 0 0 23px;
+}
+/*------------------------------------------ //Team Page ----------------------------------------*/
+
+
 
 
